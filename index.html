@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/cpu.css" rel="stylesheet">
+    <link href="css/upgrades.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <script src="content/upgrades.js"></script>
+    <script src="content/components.js"></script>
+
+    <script src="js/__helpers.js"></script>
+    <script src="js/component.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/grid_generator.js"></script>
+    <script src="js/grid.js"></script>
+    <script src="js/upgrades.js"></script>
+    <script src="js/mainLoop.js"></script>
+    <title>Beginnings</title>
+</head>
+<body>
+    <h1 id="dataCounter">B</h1>
+    <br>
+    <br>
+    <br>
+    <div class="cpu-box">
+        <table class="cpu-table" id="cpuTable">
+        </table>
+        <div>
+            <p id="signalSpeed" class="float-left">Signal Input Rate: 2500ms</p>
+            <p id="backlogSpeed" class="float-right">Internal Processor Speed: 1250ms</p>
+        </div>
+        <br>
+        <br>
+        <p id="dataPerSignal" class="text-center">Signal Data Capacity: 1 B</p>
+
+    </div>
+    <br>
+    <h1 class="text-center">Components</h1>
+    <div class="improvements" id="componentHolder">
+    </div>
+
+    <h1 class="text-center">Upgrades</h1>
+    <div class="improvements" id="upgradeHolder">
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.cpu-cell {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #171717;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 4vw;
+}
+
+.cpu-cell-1 {
+    height: 1vw;
+    width: 1vw;
+    font-size: 0.25vw;
+}
+
+.cpu-cell-2 {
+    height: 2vw;
+    width: 2vw;
+    font-size: 0.5vw;
+}
+
+.cpu-cell-4 {
+    height: 4vw;
+    width: 4vw;
+    font-size: 1vw;
+}
+
+.cpu-cell-8 {
+    height: 8vw;
+    width: 8vw;
+    font-size: 2vw;
+}
+
+.cpu-cell-16 {
+    height: 16vw;
+    width: 16vw;
+}
+
+.pulsed {
+    background-color: yellow;
+}
+
+.source {
+}
+
+.splitter {
+
+}

@@ -1,0 +1,48 @@
+html body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #242424;
+    color: #ebebeb;
+    height: 100vh;
+}
+
+.cpu-box {
+    text-align: center;
+    margin: auto;
+    width: 75vw;
+}
+
+.flex-grid {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.cpu-table {
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-pad {
+    padding: 0 !important;
+}
+
+#dataCounter {
+    text-align: center;
+}
+
+.gameError {
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.selectedComp {
+    border-color: white !important;
+}

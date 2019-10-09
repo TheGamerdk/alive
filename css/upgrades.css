@@ -1,0 +1,21 @@
+.improvements {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    flex-wrap: wrap;
+}
+
+.upgrade {
+    padding: 5px;
+    margin: 2px;
+
+    width: 45%;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #171717;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: auto;
+}
